@@ -1,0 +1,1 @@
+# gcp_static_web_w_pulumi
