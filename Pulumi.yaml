@@ -1,0 +1,6 @@
+name: gcp_static_web_w_pulumi
+runtime:
+  name: python
+  options:
+    virtualenv: venv
+description: A minimal Google Cloud Python Pulumi program
