@@ -23,10 +23,10 @@ The request will be served by CDN first, then the loadloadbalancer and bucket!
 
 1. Download and initialize your environment
 
-:warning: 
-For Windows users, please leverage Anaconda to create your virtual environment. Then, use command to install requirements.txt
+    :warning: 
+    For Windows users, please leverage Anaconda to create your virtual environment. Then, use command to install requirements.txt
 
-    ```bash
+    ```
     $ python3 -m venv venv
     $ source venv/bin/activate
     $ pip3 install -r requirements.txt

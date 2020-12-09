@@ -2,7 +2,8 @@
 
 將採用 Google Bucket 來存放靜態網頁，並且提供給使用者瀏覽。Bucket 前端會放置負載均衡器與 CDN 來提供最佳的瀏覽體驗。
 
-:triangular_flag_on_post: 預設使用 Google 所提供的受管憑證，來自動提供 TLS 保護!
+:triangular_flag_on_post: 預設使用 Google 所提供的受管憑證，來自動提供 TLS 保護!<br/><br/>
+
 :bulb: 整個專案一方面展現透過 GCP 建置靜態網站所需要的必要元件外，另一方面則採用 Pulumi 來進行自動化建置。整個專案可以作為建置屬於你自己的網站的起點，但如果有任何安全的考量與客製，也請大膽修改成你所考慮的樣子。當然，你也可以建議或者是貢獻你的配置到本專案中!
 
 ## Prerequisite
@@ -20,10 +21,10 @@
 
 1. 下載並且初始你的環境
 
-:warning: 
-Windows 使用者請利用 Anaconda 建立虛擬環境，再利用指令安裝 requirements.txt 即可!
+    :warning:
+    Windows 使用者請利用 Anaconda 建立虛擬環境，再利用指令安裝 requirements.txt 即可!
 
-    ```bash
+    ```
     $ python3 -m venv venv
     $ source venv/bin/activate
     $ pip3 install -r requirements.txt
